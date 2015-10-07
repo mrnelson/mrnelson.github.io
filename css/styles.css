@@ -1,8 +1,15 @@
+h1 {
+  color: rgba(0,0,0,.5);
+}
+
+
+
 img {
+    opacity: .5
     width: 50%;
 }
 
 body {
-    background: purple;
+    background: url(../img/concrete_wall_2.png);
 
 }
