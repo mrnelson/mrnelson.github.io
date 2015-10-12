@@ -1,5 +1,10 @@
 h1 {
-  color: rgba(0,0,0,.5);
+  
+    color: rgba(0,0,0,.5);
+    
+    color: peachpuff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 
