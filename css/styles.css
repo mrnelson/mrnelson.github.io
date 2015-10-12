@@ -1,3 +1,18 @@
+/* Global */
+
+
+body {
+    background: url(../img/concrete_wall_2.png);
+}
+
+img {
+    opacity: .5;
+    width: 20%;
+}
+/* Layout */
+
+/* Typography */
+
 h1 {
   
     color: rgba(0,0,0,.5);
@@ -7,14 +22,24 @@ h1 {
     letter-spacing: 2px;
 }
 
-
-
-img {
-    opacity: .5;
-    width: 20%;
+p {
+    background: green;
+    border: 10px double black;    
+    padding: 20px;
+    width: 300px;   
 }
 
-body {
-    background: url(../img/concrete_wall_2.png);
+/* Navigation */
 
+a {
+    background: red;
+    text-decoration: none;
+    
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+li {
+    display: inline;
 }
