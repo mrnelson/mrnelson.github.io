@@ -30,7 +30,7 @@ font{
 }
 
 h1 {
-  
+    font-family: "acumin-pro", sans-serif;
     color: rgba(0,0,0,.5);
     color: peachpuff;
     text-transform: uppercase;
