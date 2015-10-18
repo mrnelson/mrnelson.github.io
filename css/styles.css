@@ -8,7 +8,10 @@ body {
 
 img {
     opacity: 100%;
-    width: 50%;    
+    width: 20%;
+    border-radius: 20%;
+    margin: auto;
+    padding: 20px;
 }
 
 .logo {
@@ -32,13 +35,12 @@ font{
 h1 {
     font-family: "acumin-pro", sans-serif;
     color: rgba(0,0,0,.5);
-    color: peachpuff;
+    color: gray;
     text-transform: uppercase;
     letter-spacing: 2px;
     display: inline-block;
     max-width: 400px;
     max-height: 60px;
-    margin: auto;
     padding: auto;
     
     
@@ -46,19 +48,24 @@ h1 {
 .myname {
    font-size: 50px;
    align: left;
+    padding: 5 5 5 5;
+    margin-left: 20px;
+    
     }
 .mytitle {
     font-size: 50px;
     align: right;
+    padding: 5 5 5 5;
+    margin-right: 20px
 }
 p {
     background: light-grey;   
     padding: 1px;
-    width: 300px;   
+    width: 300px;
+    padding: 20px;
 }
-#myname{
-    margin: left;
-    
+
+
 }
 /********** Navigation **********/
 
@@ -66,9 +73,12 @@ a {
     margin: auto;
     padding: auto;
     text-decoration: none;
+    color: gray;
     display: inline-block;
-    height: 100px;
-    width: 100px;
+    height: 15px;
+    width: 80px;
+    
+    
 }
 
 li {
