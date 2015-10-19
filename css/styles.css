@@ -3,26 +3,26 @@
 
 body {
     background: url(../img/concrete_wall_2.png);
-    max-width: 1000px;
+    max-width: 100%;
 }
 
 img {
     opacity: 100%;
-    width: 20%;
-    border-radius: 20%;
+    max-width: 10%;
+    border-radius: 25%;
+    max-height: 10%;
     margin: auto;
     padding: 20px;
 }
 
 .logo {
     padding: 10px;
-    align: center;
-    max-height: 70px;
-    max-width: 70px;
+    max-height: 40px;
+    max-width: 40px;
     
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 /********** Layout **********/
@@ -33,27 +33,28 @@ font{
 }
 
 h1 {
+    
     font-family: "acumin-pro", sans-serif;
     color: rgba(0,0,0,.5);
     color: gray;
     text-transform: uppercase;
     letter-spacing: 2px;
     display: inline-block;
-    max-width: 400px;
-    max-height: 60px;
+    max-width: 100%;
+    max-height: 6%;
     padding: auto;
     
     
 }
 .myname {
-   font-size: 50px;
+   font-size: 40px;
    align: left;
     padding: 5 5 5 5;
     margin-left: 20px;
     
     }
 .mytitle {
-    font-size: 50px;
+    font-size: 40px;
     align: right;
     padding: 5 5 5 5;
     margin-right: 20px
