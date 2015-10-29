@@ -35,9 +35,11 @@ header {
     
     background-image: url('../img/hike.jpg');
     background-size: cover;
+    background-clip: padding-box;
     padding-top: 150px;
     height: 460px;
     background-size: 100%;
+    background-position: top; 
     background-repeat: no-repeat;
     font-family: "acumin-pro", sans-serif;
     font-weight: 400;
