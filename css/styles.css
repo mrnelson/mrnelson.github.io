@@ -18,8 +18,8 @@ img {
 }
 
 #pictureme {
-    max-height: 20%;
-    max-width: 20%;
+    height: 200px;
+    max-width: 150px;
     padding: 10px;
     margin: 10px;
     
@@ -35,11 +35,10 @@ font{}
 header {
     
     background-image: url('../img/hike.jpg');
-    background-size: cover;
+    background-size: 1100px;
     background-clip: padding-box;
     padding-top: 150px;
     height: 460px;
-    background-size: 100%;
     background-position: top; 
     background-repeat: no-repeat;
     font-weight: bold;
@@ -64,8 +63,8 @@ header {
     position: absolute;
     left: 380px;
     top: 130px;
-    max-width: 10%;
-    max-height: 25%;
+    max-width: 100px;
+    max-height: 100px;
     padding: 10px;
     margin: 35px;
 /*    background-color: green;*/
@@ -85,8 +84,7 @@ header {
     
 
     margin: auto;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 5px 2px 3px 2px;
 /*    background-color: yellow;*/
     max-width: 1100px;
     text-align: center;
@@ -94,11 +92,13 @@ header {
 
 p {
     font-weight: 300;
-    padding: 1px;
-    width: 300px;
-    padding: 20px;
+    max-height: 250px;
+    padding: 3%;
+    margin: 1%;
 }
 
+
+}
 /********** Navigation **********/
 
 a {
