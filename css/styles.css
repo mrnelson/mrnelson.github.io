@@ -17,7 +17,7 @@ img {
 }
 
 #pictureme {
-    height: 250px;
+/*    height: 250px;*/
     max-width: 200px;
     padding: 15px;
 /*    margin: 10px;*/
@@ -33,14 +33,16 @@ img {
 
 header {
     
-    background-image: url('../img/hike1.jpg');
-    background-size: 1200px;
+/*    background-image: url('../img/hike1.jpg'), url('../img/flowers.jpg'), url('../img/beeExtended.jpg') url('../img/leaf.jpg');*/
+    background-size: 1300px;
     background-clip: padding-box;
     padding-top: 150px;
     height: 460px;
     background-position: top; 
-    background-repeat: no-repeat;
-/*    font-weight: 400;*/
+/*    background-repeat: no-repeat, no-repeat, no-repeat, repeat-x;*/
+/*    animation: header 4s linear infinite;*/
+/*  background-position: 300px -90px, 30px 20px, 100% 0; }*/
+    /*    font-weight: 400;*/
     color: gray;
     text-transform: uppercase;
     letter-spacing: .25em;
@@ -52,6 +54,7 @@ header {
 
     
 }
+
 #myname {
    position: relative;
     max-width: 200px;
@@ -95,16 +98,17 @@ p {
     font-weight: 300;
     line-height: 1.5em;
     height: 200px;
-    max-width: 50;
     padding: 10px;
-    margin: 1px;
+    margin: ;
+    display: inline-block;
+    
 }
 
 
 
 /********** Navigation **********/
 nav {
-    margin: auto;
+    padding: 1px;
     text-align: center;
 /*     background-color: red; */
 }
@@ -119,4 +123,18 @@ li {
 a{
     text-decoration: none;
     color: gray;
+    margin: 0 8px;
 }
+
+/********* DRY CLASSES*********/
+
+/*
+.btn {
+ cursor: pointer;   
+ color: #fff;
+ padding-left: 20px;
+ padding-right: 20px;
+}
+.default-theme {
+  background-color: coral;
+}*/
