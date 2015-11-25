@@ -34,24 +34,30 @@ img {
 
 .resume {
     margin: 15px;
-    padding-left: 50px;
+    padding-left: 100px;
     padding-right: 50px;
     line-height: .25;
 }
 ul {
-    background: lightblue;
+/*    background: lightblue;*/
 }
 li {
     line-height: 1;
-    background: lightpink;
+    color: gray;
+/*    background: lightpink;*/
 }
 li em:last-child {
     font-size: .75em;
     line-height: 1.75;
+    
+}
+
+h1 {
+    color: dimgray
 }
 
 article {
-    background: lightyellow;
+/*    background: lightyellow;*/
 }
 
 /********** Typography **********/
