@@ -29,6 +29,31 @@ img {
 
 /********** Layout **********/
 
+
+/********** Resume styling **********/
+
+.resume {
+    margin: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: .25;
+}
+ul {
+    background: lightblue;
+}
+li {
+    line-height: 1;
+    background: lightpink;
+}
+li em:last-child {
+    font-size: .75em;
+    line-height: 1.75;
+}
+
+article {
+    background: lightyellow;
+}
+
 /********** Typography **********/
 
 header {
