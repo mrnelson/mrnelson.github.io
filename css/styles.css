@@ -29,6 +29,48 @@ img {
 
 /********** Layout **********/
 
+/********** Portfolio styling **********/
+
+.wrapper {
+    width: 600px;
+/*    height: 600px;*/
+}
+
+div input {
+/*    display: none;*/
+}
+div .thumbnails {
+/*    background: cyan;*/
+/*    width: 150px;*/
+    float: right;
+
+    
+}
+    
+.full-image {
+    background: orange;
+    width: 100%;
+    
+    
+}
+
+div img:last-child {
+    width: 90px;
+    height: 70px;
+    opacity: .5;
+    
+}
+
+div img:last-child:hover {
+    opacity: 1;
+}
+
+div img:last-child:checked {
+    opacity: 1;
+}
+
+
+
 
 /********** Resume styling **********/
 
