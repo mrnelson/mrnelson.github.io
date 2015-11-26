@@ -124,6 +124,7 @@ article {
 header {
     
 /*    background-image: url('../img/hike1.jpg'), url('../img/flowers.jpg'), url('../img/beeExtended.jpg') url('../img/leaf.jpg');*/
+    background-image: url('../img/hike1.jpg');
     background-size: 1300px;
     background-clip: padding-box;
     padding-top: 150px;
