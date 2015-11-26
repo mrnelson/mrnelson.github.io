@@ -38,7 +38,7 @@ img {
 
 
 .wrapper .thumbnails {
-    background: cyan;
+/*    background: cyan;*/
     width: 180px;
     float: right;  
 }
@@ -66,7 +66,7 @@ img {
     opacity: 1;
 }
 .wrapper .full-image {
-    background: orange;
+/*    background: orange;*/
 /*    width: 100%;*/
     display: none;
     position: absolute;
