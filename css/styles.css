@@ -32,7 +32,7 @@ img {
 /********** Portfolio styling **********/
 
 .wrapper {
-    width: 950px;
+    width: 1000px;
     position: relative;
 }
 
@@ -79,7 +79,7 @@ img {
 .wrapper div img:last-child {
     width: 90px;
     height: 70px;
-    opacity: .5;
+/*    opacity: .5;*/
     float: right;
     position: relative;
     float: right;
