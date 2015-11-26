@@ -32,44 +32,61 @@ img {
 /********** Portfolio styling **********/
 
 .wrapper {
-    width: 600px;
-/*    height: 600px;*/
+    width: 950px;
+    position: relative;
 }
 
-div input {
-/*    display: none;*/
-}
-div .thumbnails {
-/*    background: cyan;*/
-/*    width: 150px;*/
-    float: right;
 
-    
+.wrapper .thumbnails {
+    background: cyan;
+    width: 180px;
+    float: right;  
 }
-    
-.full-image {
+   
+.wrapper label img:first-child {
+    max-width: 800px;
+}
+
+.wrapper label img:last-child {
+    opacity: .5;
+}
+
+.wrapper label img:hover {
+    opacity: 1;
+}
+.wrapper input {
+    display: none;
+}
+
+.wrapper input:checked + .full-image {
+    display: block;
+}
+
+.wrapper input:checked ~ img {
+    opacity: 1;
+}
+.wrapper .full-image {
     background: orange;
-    width: 100%;
+/*    width: 100%;*/
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 10;
     
     
 }
 
-div img:last-child {
+.wrapper div img:last-child {
     width: 90px;
     height: 70px;
     opacity: .5;
+    float: right;
+    position: relative;
+    float: right;
+    
+    
     
 }
-
-div img:last-child:hover {
-    opacity: 1;
-}
-
-div img:last-child:checked {
-    opacity: 1;
-}
-
-
 
 
 /********** Resume styling **********/
@@ -224,7 +241,7 @@ a{
 /* Global
 ================================ */
 
-* {
+ {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
