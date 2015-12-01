@@ -29,6 +29,7 @@ img {
 
 /********** Layout **********/
 
+
 /********** Portfolio styling **********/
 
 .wrapper {
@@ -199,12 +200,32 @@ p {
     
 }
 
+/********** home page styling **********/
+
+.home {
+    background: url('../img/dalapiano01.jpg');
+
+}
+
+.homenav {
+    background-image: none;
+    color: gray;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    line-height: 2em;
+    text-align: center;
+    font-size: 1.25em;
+    position: relative;
+    margin: auto;
+}
+
 
 
 /********** Navigation **********/
 nav {
     padding-top: 244px;
     text-align: center;
+    
     
 /*     background-color: red; */
 }
