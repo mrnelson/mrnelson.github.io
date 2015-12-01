@@ -372,3 +372,7 @@ img {
 		max-width: 1100px;
 	}
 }
+
+.center {
+    float: none;
+}
