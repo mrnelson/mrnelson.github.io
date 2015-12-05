@@ -130,11 +130,12 @@ header {
     background-repeat: no-repeat;
 /*    background-size: 1300px;*/
     background-size: 100% ;
-    -webkit-background-size: contain;
-    background-size: contain;
-/*    background-clip: padding-box;*/
+-webkit-webkit-background-size: cover;
+-moz-webkit-background-size: cover;
+-ms-webkit-background-size: cover;
+-o-webkit-background-size: cover;
+webkit-background-size:cover ;
     padding-top: 20px;
-    padding-bottom: 200px;
 /*    height: 460px;*/
 /*    height: 750px;*/
     background-position: top; 
@@ -229,19 +230,10 @@ p {
 
 /********** Navigation **********/
 nav {
-    padding-top: 1/2%%; /*254px*/
-    padding-bottom: .2%; /*15px*/
+    padding-top: 20%; /*254px*/
+    padding-bottom: 1.2%; /*15px*/
     text-align: center;
-    color: gray;
-    text-transform: uppercase;
-    letter-spacing: .25em;
-    line-height: 2em;
-    text-align: center;
-    font-size: 1.25em;
-    position: relative;
-    margin: auto;
-    min-width: 446px;
-
+    
     
 /*     background-color: red; */
 }
