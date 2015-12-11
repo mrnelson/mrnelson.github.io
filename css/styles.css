@@ -424,10 +424,24 @@ p {
     }
 }
 
+@media (max-width: 531px) {
+    #myname,
+    #mytitle {
+        font-size: 1.25em;
+        padding-top: 4%;
+    }
+    #logo {
+        max-width: 50px;
+        height: 50px;
+/*        padding-top: 9%;*/
+    }
+}
+
 @media (max-width: 498px) {
     #myname,
     #mytitle {
         font-size: 1em;
+        padding-top: 4%;
     }
     #logo {
         max-width: 50px;
@@ -440,7 +454,14 @@ p {
         font-size: 1em;
         line-height: 1.5em;
     }
-
+    
+@media (max-width: 531px) {
+    navigation {
+        font-size: .85em;
+        line-height: 1.75em;
+    }
+}
+    
 @media (max-width: 498px) {
     navigation {
         font-size: .77em;
