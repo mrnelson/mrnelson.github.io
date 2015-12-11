@@ -151,7 +151,7 @@ img {
 /********** Portfolio styling **********/
 
 .wrapper {
-    width: 1000px;
+    width: 80%;
     position: relative;
     margin: 0 0 0 120px;
 }
@@ -209,12 +209,6 @@ img {
     position: relative;
     float: right;
     
-    
-    
-}
-
-.wrapper {
-    min-width: 500px;
 }
 
 /********** Resume styling **********/
@@ -476,8 +470,8 @@ p {
 
 .home {
     background: url('../img/dalapiano01.jpg');
-    background-size: cover;
-    height: 1250px;
+/*    background-size: cover;*/
+/*    height: 1250px;*/
 
 }
 
