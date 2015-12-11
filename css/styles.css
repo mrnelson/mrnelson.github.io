@@ -417,7 +417,7 @@ p {
     
 }
 
-@media (max-width: 583px) {
+@media (max-width: 631px) {
     #myname,
     #mytitle {
         font-size: 1.5em;
@@ -435,7 +435,7 @@ p {
     }
 }
 
-@media (max-width: 583px) {
+@media (max-width: 631px) {
     navigation {
         font-size: 1em;
         line-height: 1.5em;
