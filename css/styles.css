@@ -125,7 +125,7 @@ body {
 /*    background: url(../img/concrete_wall_2.png);*/
     background: black;
 /*    background: rgb(239, 242, 243); */
-    max-width: 100%;
+/*    max-width: 100%;*/
     font-family: 'Roboto', sans-serif;
 /*    overflow: auto;*/
 }
@@ -246,7 +246,7 @@ h1 {
 
 article {
 /*    background: lightyellow;*/
-    padding: 10%;
+/*    padding: 10%;*/
 }
 
 
@@ -325,17 +325,17 @@ article {
 header {
     
 /*    background-image: url('../img/hike1.jpg'), url('../img/flowers.jpg'), url('../img/beeExtended.jpg') url('../img/leaf.jpg');*/
-    background-image: url('../img/dalapiano04.jpg') ;
+    background-image: url('../img/dalapiano05.jpg') ;
     background-repeat: no-repeat;
-/*    background-size: 1300px;*/
-    background-size: 100% ;
--webkit-webkit-background-size: cover;
--moz-webkit-background-size: cover;
--ms-webkit-background-size: cover;
--o-webkit-background-size: cover;
-webkit-background-size:cover ;
+    background-size: 1300px;
+/*    background-size: 100% ;*/
+/*-webkit-webkit-background-size: cover;*/
+/*-moz-webkit-background-size: cover;*/
+/*-ms-webkit-background-size: cover;*/
+/*-o-webkit-background-size: cover;*/
+/*webkit-background-size:cover ;*/
     padding-top: 20px;
-/*    height: 460px;*/
+    height: 380px;
 /*    height: 750px;*/
     background-position: top; 
 /*    background-repeat: no-repeat, no-repeat, no-repeat, repeat-x;*/
@@ -355,9 +355,13 @@ webkit-background-size:cover ;
     
 }
 
+.my {
+    align-content: center; 
+}
+
 #myname {
    position: relative;
-    max-width: 200px;
+    max-width: 250px;
     padding: 5px;
     display: inline-block;
     float: none;
@@ -393,7 +397,14 @@ webkit-background-size:cover ;
 
 /*     background-color: purple;*/
 }
-    
+navigation {
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    line-height: 2em;
+    text-align: center;
+    font-size: 1.25em;
+}    
+
 p {
     font-weight: 300;
     line-height: 1.5em;
@@ -402,6 +413,27 @@ p {
     margin: ;
     display: inline-block;
     
+}
+
+@media (max-width: 583px) {
+    #myname,
+    #mytitle {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 498px) {
+    #myname,
+    #mytitle {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 498px) {
+    #logo {
+        max-width: 50px;
+        height: 50px;
+    }
 }
 
 
@@ -430,7 +462,7 @@ p {
 
 /********** Navigation **********/
 nav {
-    padding-top: 20%; /*254px*/
+    padding-top: 10px; /*254px*/
     padding-bottom: 1.2%; /*15px*/
     text-align: center;
     
