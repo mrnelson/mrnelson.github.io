@@ -1,18 +1,47 @@
 /*here is my color palette*/
 .color-1 {
-    background: rgb(65, 89, 45);
+    background: #74521c;
     
 }
 .color-2 {
-    background: rgb(129, 166, 1);
+    background: #cc5423;
+}
+
+.color-3 {
+    background: #000;
+}
+
+/*here is my imagery*/
+.pattern-1 {
+    background-image: url('../../img/ampersand_90x67.jpg');
+}
+.pattern-2 {
+    background-image: url('../../img/ampersand_90x67.jpg');
+}
+.pattern-3 {
+    background-image: url('../../img/ampersand_90x67.jpg');
+}
+
+/*here is my patterns*/
+
+.imagery-1 {
+     background: url('../../img/dalapiano05.jpg');
+    
+}
+.imagery-2 {
+    background: url('../../img/progressBar35.svg');
+}
+
+.imagery-3 {
+    background: url('../../img/Logo.gif')
 }
 
 /*typography*/
 
 h2 {
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-transform:uppercase;
-    letter-spacing: 2px;
+    letter-spacing: .25em;
 }
 /* Set Your Own Margin & Padding */
 h2, h3, p {
