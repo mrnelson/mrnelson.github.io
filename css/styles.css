@@ -1,9 +1,6 @@
 /********** TREE HOUSE GRID **********/
 
-/* Global
-================================ */
-
- {
+* {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -108,11 +105,6 @@ img {
 	}
 }
 
-.center {
-    float: none;
-}
-
-
 
 
 
@@ -130,38 +122,52 @@ body {
 /*    overflow: auto;*/
 }
 
-img {
-/*    background-color: red;*/
-}
-
-#pictureme {
-/*    height: 250px;*/
-    width: 163px;
-    padding: 15px;
-/*    margin: 10px;*/
-/*    background-color: aqua;*/
-    
-}
         
 
 
 /********** About Me Page **********/
+#pictureme {
+/*    height: 250px;*/
+    width: 270px;
+    padding: 15px;
+/*    margin: 10px;*/
+/*    background-color: aqua;*/
+    
+    
+}
+
 article div p{
-    float: none;
+/*    float: right;*/
 /*   background: red;*/
-    display: inline-block;
+/*    display: inline-block;*/
     margin: none;
     padding: none;
+/*    background: purple;*/
     
 }
 h2 {
     color: gray;
+/*    background: lightgreen;*/
+}
+
+.p {
+    height: 400px;
+    float: none;
+/* background: pink;*/
+    
+}
+
+/*@media (max-width: 883px){    */
+/*.p {width: 150px;*/
+    }
 }
 
 
+/****** ABOUT ME PAGE FORM     ******/
 input[type="email"], [type="text"]{
    display:block;
    background: gray;
+/*    border: darkgray;*/
 }
 
 input:focus {
@@ -172,14 +178,18 @@ input:hover{
   background: lightgray;  
 }
 
-form {
+.sendme {
+/*  float: right;*/
+  border: .15em solid darkgray;
   background: black;
-  width: 350px;
-  padding: 2%;
-  margin: 1%;
+  width: 370px;
+  padding: 12px;
+  margin: auto;
+/*  margin-right: 50px;*/
+
 }
 
-label{
+div form label{
   /* background: lightblue; */
   display: inline-block;
   width: 5em;
@@ -191,6 +201,7 @@ label{
 
 textarea {
   background: gray;
+  border: darkgray;
 }
 
 textarea:focus {
@@ -202,24 +213,51 @@ textarea:hover{
 }
 
 input[type="submit"] {
-  color: gray;
-  width: 125px;
+  color: black;
+    text-align: center;
+  border-radius: 5%;
+  width: 250px;
   font-size: 1.5em;
   margin-top: 20px;
+  padding: 2px;
+  border: darkgray;
+}
+
+input[type="submit"]:hover {
+    background: lightgray;
+    
+}
+
+@media (max-width: 480px) {
+    textarea {
+        width: 100%;
+    }
+    
+}
+
+.form {
+    margin-bottom: 250px;
+}
+
+.cat {
+    float: none;
 }
 /********** Portfolio styling **********/
 
 .wrapper {
     width: 80%;
     position: relative;
-    margin: 0 0 0 120px;
+/*    margin: 0 0 0 120px;*/
 }
 
 
 .wrapper .thumbnails {
 /*    background: cyan;*/
     width: 180px;
-    float: right;  
+/*    width: 250px;*/
+    float: right; 
+/*    padding:none;*/
+/*    margin: none;*/
 }
    
 .wrapper label img:first-child {
