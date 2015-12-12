@@ -136,20 +136,28 @@ img {
 
 #pictureme {
 /*    height: 250px;*/
-    max-width: 20%;
-    min-width: 15%;
+    width: 163px;
     padding: 15px;
 /*    margin: 10px;*/
 /*    background-color: aqua;*/
     
 }
         
-   
+
 
 /********** About Me Page **********/
-p {
+article div p{
+    float: none;
+/*   background: red;*/
+    display: inline-block;
+    margin: none;
+    padding: none;
     
 }
+h2 {
+    color: gray;
+}
+
 
 /********** Portfolio styling **********/
 
@@ -411,7 +419,7 @@ p {
 /*    height: 200px;*/
     padding: 10px;
     margin: ;
-    display: inline-block;
+/*    display: inline-block;*/
     
 }
 
