@@ -11,7 +11,7 @@
     background: #000;
 }
 
-/*here is my imagery*/
+/*here is my patterns*/
 .pattern-1 {
     background-image: url('../../img/ampersand_90x67.jpg');
 }
@@ -22,11 +22,11 @@
     background-image: url('../../img/ampersand_90x67.jpg');
 }
 
-/*here is my patterns*/
 
+/*here is my imagery*/
 .imagery-1 {
-     background: url('../../img/dalapiano05.jpg');
-    
+     background-image: url(../../img/ampersand_90x67.jpg);
+    background: #;
 }
 .imagery-2 {
     background: url('../../img/progressBar35.svg');
@@ -45,13 +45,20 @@ h2 {
     letter-spacing: .25em;
 }
 /* Set Your Own Margin & Padding */
-h2, h3, p {
-	margin: 0;
+h2, h3{
+    font-family: roboto, sans-serif;
+    text-transform: uppercase;
+	margin: 20px;
 }
 
+p {
+    font-family: roboto, sans-serif;
+    
+	margin: 20px;
+}
 /* Layout for Style Tile*/
 section {
-	margin: 20px 0;
+	margin: 20px 20px;
 }
 
 .color-1,
