@@ -136,7 +136,8 @@ img {
 
 #pictureme {
 /*    height: 250px;*/
-    max-width: 200px;
+    max-width: 20%;
+    min-width: 15%;
     padding: 15px;
 /*    margin: 10px;*/
 /*    background-color: aqua;*/
@@ -145,8 +146,10 @@ img {
         
    
 
-/********** Layout **********/
-
+/********** About Me Page **********/
+p {
+    
+}
 
 /********** Portfolio styling **********/
 
@@ -402,9 +405,10 @@ navigation {
 }    
 
 p {
+    color: gray;
     font-weight: 300;
     line-height: 1.5em;
-    height: 200px;
+/*    height: 200px;*/
     padding: 10px;
     margin: ;
     display: inline-block;
