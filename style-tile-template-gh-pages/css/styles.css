@@ -33,7 +33,7 @@
 }
 
 .imagery-3 {
-    background: url('../../img/Logo.gif')
+    background-image: url('../../img/Logo.gif')
 }
 
 /*Not sure why the images aren't showing up*/
