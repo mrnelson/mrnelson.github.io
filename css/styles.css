@@ -159,6 +159,54 @@ h2 {
 }
 
 
+input[type="email"], [type="text"]{
+   display:block;
+   background: gray;
+}
+
+input:focus {
+  background: lightgray;  
+}
+
+input:hover{
+  background: lightgray;  
+}
+
+form {
+  background: black;
+  width: 350px;
+  padding: 2%;
+  margin: 1%;
+}
+
+label{
+  /* background: lightblue; */
+  display: inline-block;
+  width: 5em;
+  padding: 2px;
+  margin-top: 25px;
+  color: gray;
+  font-size: 1.5em;
+}
+
+textarea {
+  background: gray;
+}
+
+textarea:focus {
+  background: lightgray;
+}
+
+textarea:hover{
+  background: lightgray; 
+}
+
+input[type="submit"] {
+  color: gray;
+  width: 125px;
+  font-size: 1.5em;
+  margin-top: 20px;
+}
 /********** Portfolio styling **********/
 
 .wrapper {
