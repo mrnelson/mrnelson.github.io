@@ -8,18 +8,21 @@ font-weight: 200;
 }
 
 nav{
+  z-index: 1;
   background: #F7F3F1;
+/*   background: orange; */
   font-weight: 400;
-  position: absolute;
+
 /*   background: #fff; */
-  padding: 10px 0;
+  padding: 10px;
+/*   display: block; */
+  width: 100%;
 
 /*   width: 1280px; */
 text-align: right;
   bottom: 0px;
   right: 0;
-   position: fixed;
-  width: 100%;
+  position: fixed;
 }
 
 nav ul{
@@ -55,6 +58,6 @@ nav ul li a:hover{
 /*   background: #000; */
   
   bottom: 0%;
-  padding: 0 0 50px 50px;
+  padding: 0 0 60px 50px;
 
 }
