@@ -579,7 +579,7 @@ a{
 
 /* General Demo Style */
 
-*,
+
 *:after,
 *:before {
 	-webkit-box-sizing: border-box;
