@@ -58,6 +58,17 @@ li {
   list-style-type: none;
 }
 
+.resume{
+  padding: 0 20px 10px 20px;
+/*   display: inline-block; */
+  position: absolute;
+  
+  right: 0px;
+  width: 50%;
+ 
+}
+
+
 @media screen and (max-width:745px) {
   .dala {
     padding: 0 0 35px 50px;
