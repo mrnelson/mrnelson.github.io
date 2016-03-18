@@ -20,6 +20,48 @@ navigation{
  
 }
 
+nav{
+  background: #F7F3F1;
+/*   background: orange; */
+  font-weight: 400;
+/*   background: #fff; */
+  padding: 10px;
+/*   display: block; */
+  width: 100%;
+
+/*   width: 1280px; */
+text-align: right;
+  bottom: 0px;
+  right: 0;
+  position: fixed;
+}
+
+nav ul{
+/*   background: pink; */
+  padding: 0;
+}
+
+nav ul li{
+/*   background: green; */
+  display: inline-block;
+  text-decoration: none;
+  line-height: 1.75em;
+  text-transform: uppercase;
+/*     letter-spacing: .25em; */
+/*     text-align: center; */
+    font-size: 1em;
+  margin-right: 2.5em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+/*     padding: 0 14px; */
+}
+
+nav ul li a:hover{
+  color: gray;
+}
 
 
 .title{
