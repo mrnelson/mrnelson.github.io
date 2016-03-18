@@ -1,0 +1,75 @@
+body{
+  font-family: "roboto",sans-serif;
+font-style: normal;
+font-weight: 200;
+  
+  max-width: 100%;
+/*   overflow: hidden; */
+}
+
+.mainChar ul li:first-child {
+  font-family: "roboto",sans-serif;
+font-style: normal;
+font-weight: 400;
+}
+
+navigation{
+/*   background: green; */
+  
+ 
+}
+
+
+
+.title{
+  font-family: "roboto",sans-serif;
+font-style: normal;
+font-weight: 200;
+  font-size: 6.5em;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  padding-right: 50px;
+  padding-top: 10px;
+}
+
+img {
+  position: absolute;
+  margin: 0 auto;
+/*   background: #000; */
+  width: 40%;
+  bottom: 0%;
+  padding: 0 0 50px 50px;
+
+}
+
+.mainChar{
+  float: right;
+  padding-right: 50px;
+  display: block;
+  text-align: right;
+  text-decoration: none;
+  font-size: 1.5em;
+  line-height: 1.3em;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+@media screen and (max-width:745px) {
+  .dala {
+    padding: 0 0 35px 50px;
+/*     background: green; */
+  }
+}
+
+
+@media screen and (max-width:670px) {
+  .dala {
+    padding: 0 0 80px 50px;
+/*     background: green; */
+  }
+}
+
