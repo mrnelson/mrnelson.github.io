@@ -249,7 +249,10 @@ font-weight: 300;
 }
 
 
-
+.p,
+.form{
+  padding-right: 50px;
+}
 
 
 /* styling for about page */
