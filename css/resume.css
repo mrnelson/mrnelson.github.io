@@ -1,0 +1,121 @@
+body{
+  background: #F7F3F1;
+  font-family: "roboto",sans-serif;
+font-style: normal;
+font-weight: 200;
+  
+  max-width: 100%;
+}
+
+
+article{
+  padding-bottom: 100px;
+}
+
+.dala{
+  position: absolute;
+  margin: 0 auto;
+/*   background: #000; */
+  width: 40%;
+  bottom: 0%;
+  padding: 0 0 60px 50px;
+  
+  
+}
+
+.title{
+  font-family: "roboto",sans-serif;
+font-style: normal;
+font-weight: 200;
+  font-size: 6.5em;
+  margin: 0;
+/*   padding: 0; */ 
+  text-align: right;
+  padding: 10px 50px;
+  right: 0;
+  top: 0;
+/*   display: inline-block; */
+/*   background: pink; */
+}
+
+nav{
+  background: #F7F3F1;
+/*   background: orange; */
+  font-weight: 400;
+/*   background: #fff; */
+  padding: 10px;
+/*   display: block; */
+  width: 100%;
+
+/*   width: 1280px; */
+text-align: right;
+  bottom: 0px;
+  right: 0;
+  position: fixed;
+}
+
+nav ul{
+/*   background: pink; */
+  padding: 0;
+}
+
+nav ul li{
+/*   background: green; */
+  display: inline-block;
+  text-decoration: none;
+  line-height: 1.75em;
+  text-transform: uppercase;
+/*     letter-spacing: .25em; */
+/*     text-align: center; */
+    font-size: 1em;
+  margin-right: 2.5em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+/*     padding: 0 14px; */
+}
+
+nav ul li a:hover{
+  color: gray;
+}
+
+
+.resume{
+  padding: 0 20px 10px 20px;
+/*   display: inline-block; */
+  position: absolute;
+  
+  right: 0px;
+  width: 50%;
+ 
+}
+
+h1{
+  font-family: "roboto",sans-serif;
+font-style: normal;
+font-weight: 300;
+  
+}
+
+
+a{
+  text-decoration: none;
+}
+
+div ul{
+  
+  list-style-type: none;
+    color: black;
+}
+
+.panel-group{
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width:700px){
+  .dala {
+    width: 150px;
+  }  
+}
