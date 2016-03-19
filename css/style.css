@@ -339,10 +339,10 @@ div ul{
 
 .dalaDallaDallla{
   position: absolute;
-  width: 16%;
+  width:40%;
   bottom: 0%;
-  padding: 0 0 60px 15px;
-  margin-left: 10%;
+  padding: 0 0 60px 50px;
+  margin-left: 0;
   
 }
 
@@ -831,12 +831,13 @@ a{
 /*   bottom: 0%; */
 /*     min-width: 310px; */
   width: 50%;
-  right:0;
+/*  right:0;*/
 /*   text-align: right; */
 /*     max-width: 1270px; */
 /*     margin-left: 149px; */
   margin-top: 0 auto;
   padding-bottom: 70px;
+    padding-right: 45px;
 /*     height: 704px; */
 /*  background: green;*/
   float: right;
