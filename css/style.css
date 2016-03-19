@@ -10,6 +10,7 @@ font-weight: 200;
 overflow-x: hidden;
 }
 
+
 .title{
   font-family: "roboto",sans-serif;
 font-style: normal;
@@ -85,14 +86,6 @@ nav ul li a:hover{
 
 /* Styling for home page */
 
-body{
-  font-family: "roboto",sans-serif;
-font-style: normal;
-font-weight: 200;
-  
-  max-width: 100%;
-/*   overflow: hidden; */
-}
 
 .mainChar ul li:first-child {
   font-family: "roboto",sans-serif;
@@ -173,7 +166,8 @@ li {
   padding: 0 20px 10px 20px;
 /*   display: inline-block; */
   position: absolute;
-  
+  font-weight: 300;
+    
   right: 0px;
   width: 50%;
  
