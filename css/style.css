@@ -844,3 +844,31 @@ a{
 }
 
 
+
+
+
+
+/*404 page styling*/
+
+
+.dala404 {
+    width: 50%;
+    background: black;
+    
+    
+}
+
+.404{
+   font-size: 3em;
+}
+
+
+.b404{
+    background: pink;
+    text-align: center
+}
+
+
+
+
+
