@@ -852,19 +852,23 @@ a{
 
 
 .dala404 {
+    margin-top:5em;
     width: 50%;
-    background: black;
+/*    background: black;*/
     
     
 }
 
-.404{
-   font-size: 3em;
+.fourofour {
+   font-size: 1.5em;
+    margin-top: 0;
+    padding-top: 20px;
+    line-height: 1em
 }
 
 
 .b404{
-    background: pink;
+/*    background: pink;*/
     text-align: center
 }
 
