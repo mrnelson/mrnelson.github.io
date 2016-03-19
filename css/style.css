@@ -305,6 +305,15 @@ a{
   text-decoration: none;
 }
 
+.bar {
+    width:110px;
+    display: inline-block;
+/*    background: green;*/
+}
+
+@media and (screen
+
+
 div ul{
   
   list-style-type: none;
