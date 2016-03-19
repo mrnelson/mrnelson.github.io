@@ -84,6 +84,12 @@ nav ul li a:hover{
 } */
 
 
+
+
+
+
+
+
 /* Styling for home page */
 
 
@@ -166,7 +172,8 @@ li {
   padding: 0 20px 10px 20px;
 /*   display: inline-block; */
   position: absolute;
-  font-weight: 300;
+  font-weight: 300 !important;
+    line-height: 1.35;
     
   right: 0px;
   width: 50%;
@@ -570,6 +577,7 @@ a{
 /*     background: green; */
       font-weight: 300;
       font-size: 1.25em;
+       z-index: 1;
   }
 }
 
