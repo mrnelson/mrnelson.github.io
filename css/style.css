@@ -574,6 +574,8 @@ a{
   div ul li {
    
 /*     background: green; */
+      font-weight: 300;
+      font-size: 1.25em;
   }
 }
 
